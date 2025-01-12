@@ -6,8 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-div class="container"{
+div{
     font-family: "Roboto", serif;
 }
 
@@ -26,6 +25,10 @@ header nav li{
 header nav li a{
     color: goldenrod;
     text-decoration: none;
+}
+
+section p{
+    color: rgb(238, 13, 13);
 }
 
 .container{
@@ -62,5 +65,35 @@ section p{
 }
 
 .rede img{
-    height: 40px;
+    height: 90px;
+    margin-bottom: 8px;
+    padding: 8px;
+    display: block;
+}
+
+.rede li{
+    display: inline;
+    margin-right: 8px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.contact .container{
+    display: block;
+}
+
+.rap{
+    display: flex;
+    justify-content: space-between;
+}
+
+form textarea{
+    resize: none;
 }
